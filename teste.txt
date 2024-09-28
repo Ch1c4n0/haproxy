@@ -1,0 +1,10 @@
+# Sintaxe básica do Apache Bench
+# ab  -c <numero> -t <numero> URL
+# -c <numero> (número de conexões concorrentes)
+# -t <numero> (tempo em segundo para teste)
+# URL (URL utilizada no teste)
+ab -c 10 -t 30 http://IP/
+ab -c 50 -t 30 http://IP/
+ab -c 100 -t 30 http://IP/
+ab -c 300 -t 30 http://IP/
+ab -c 600 -t 30 http://IP/
