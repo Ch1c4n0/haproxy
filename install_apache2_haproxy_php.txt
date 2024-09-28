@@ -1,0 +1,9 @@
+## Install Apache and PHP
+apt update
+apt install apache2 php libapache2-mod-php php-cli 
+
+
+## Install HAProxy
+apt install haproxy
+
+  
